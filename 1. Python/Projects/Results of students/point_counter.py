@@ -124,5 +124,6 @@ print(a.pass_the_exam())
 print(a.groups_from_file())
 
 
-
-print("Hello World")
+def hello_world():
+    print("Hello World")
+    
