@@ -30,7 +30,7 @@ class Phone:
     if self.open_apps:
       last_open = self.close_apps.pop()
       self.open_apps.append(last_open)
-      print(f"🔄 Reopened {last_closed}")
+      print(f"🔄 Reopened {last_open}")
     else:
         print("No recently closed apps.")
 
